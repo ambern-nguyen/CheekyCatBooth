@@ -1,0 +1,18 @@
+- name: "meow"
+  site-bg: ""
+  accent-color: "#FFE8EC"
+  select-color: "#FF69B4"
+  link-color: "#FF69B4"
+  bg-color: "#FFE8EC"
+  text-color: "#191919"
+  bg2-color: "white"
+  border-color: "#FF69B4"
+  post-shadow-color: "#FF69B460"
+  special-text-color: "#FF69B4"
+  post-header-color: "white"
+  post-outline-color: "#FF69B4"
+  post-outline-color2: "#FF69B460"
+  list-style:
+    image: "/flower.png"
+    # type: "+ "
+

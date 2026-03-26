@@ -1,0 +1,6 @@
+<p>
+  <a href="{{ index .Params 0 }}" target="_blank" rel="noopener noreferrer"
+     style="display:inline-block;padding:.6em 1.1em;font-weight:bold;text-decoration:none;background-color:var(--bg-color2);color:var(--special-text-color);border:4px double var(--outline-color);border-radius:.5em;box-shadow:var(--post-shadow-color) 3px 3px;">
+    {{ if ge (len .Params) 2 }}{{ index .Params 1 }}{{ else }}Open Link{{ end }}
+  </a>
+</p>

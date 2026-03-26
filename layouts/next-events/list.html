@@ -1,0 +1,40 @@
+{{ define "main" }}
+<div id="content">
+<main>
+    <article id="top" class="clearfix">
+        <section>
+            <h1>{{ .Title }}</h1>
+            {{ with .Content }}
+            <div>{{ . }}</div>
+            {{ end }}
+        </section>
+    </article>
+
+    {{ range .RegularPages.ByDate }}
+    <article>
+        <h2>{{ .Title }}</h2>
+        {{ if isset .Params "author" }}
+        <div class="post-header">
+            @{{ .Params.author }} <span class="timestamp">{{ .Date.Format "02/01/2006" }}</span>
+        </div>
+        {{ end }}
+        {{ with index .Params "title-images" }}
+        <div class="photosetx2">
+            {{ range first 1 . }}
+            <a href="{{ . }}" target="_blank"><img src="{{ . }}"></a>
+            {{ end }}
+        </div>
+        {{ end }}
+        <div class="post-content">{{ .Content }}</div>
+        {{ with index .Params "ending-images" }}
+        <div class="photosetx3">
+            {{ range first 3 . }}
+            <a href="{{ . }}" target="_blank"><img src="{{ . }}"></a>
+            {{ end }}
+        </div>
+        {{ end }}
+    </article>
+    {{ end }}
+</main>
+</div>
+{{ end }}
