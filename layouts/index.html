@@ -18,12 +18,6 @@
             {{ end }}
         </div>
         
-        <div id="bio">
-        {{ with .Site.GetPage "section" "/sidebar/bio.md" }}
-            {{ .Content | safeHTML }}
-        {{ end }}
-        </div>
-        
         <div class="small-box">
             {{ with .Site.GetPage "section" "/sidebar/basic-info.md" }}
                 {{ .Content | safeHTML }}
@@ -51,6 +45,12 @@
         {{ end }}
         {{ end }}
         
+        <div id="bio">
+        {{ with .Site.GetPage "section" "/sidebar/bio.md" }}
+            {{ .Content | safeHTML }}
+        {{ end }}
+        </div>
+
         <nav class="links">
             <ul>
             {{ with .Site.GetPage "section" "/sidebar/_index.md" }}
