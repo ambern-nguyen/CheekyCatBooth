@@ -44,7 +44,7 @@
         </div>
         {{ end }}
         {{ end }}
-        
+
         <div id="bio">
         {{ with .Site.GetPage "section" "/sidebar/bio.md" }}
             {{ .Content | safeHTML }}
@@ -60,7 +60,7 @@
                 {{ $isMailto := hasPrefix $raw "mailto:" }}
                 {{ $href := $raw }}
                 {{ if and (not $isHttp) (not $isMailto) (in $raw "@") }}
-                    {{ $href = printf "mailto:%s" $raw }}
+                    {{ $href = printf "mailto:cheekycatbooth@gmail.com" $raw }}
                 {{ end }}
                 <li><a href="{{ $href }}"{{ if or $isHttp $isMailto }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .name }}</a></li>
             {{ end }}
