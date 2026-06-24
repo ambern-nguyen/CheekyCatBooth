@@ -1,11 +1,11 @@
 ---
-title: "Upcoming Event: 5/23 Old Towne Vintage (Orange, CA)"
+title: "Upcoming Event: 6/27 Little Tokyo Flea Market (Los Angeles, CA)"
 title-images: ["/comingsoon.png",]
 ending-images: []
 author: "cheekycat"
 draft: false
 ---
 <!-- introduction -->
-## Date: May 23, 11AM - 4PM
-## Location 143 S. Lemon St Orange, CA 92866 
-Come see us at our next event, happening in Downtown Orange! Get a photobooth strip drawn or shop our stickers, magnet coasters, worry stones, and more!
+## Date: June 27, 12PM - 5PM
+## Location 333 S Alameda St, Los Angeles, CA 90013
+Come see us at our next event, happening in Little Tokyo! Get a photobooth strip drawn or shop our stickers, magnet coasters, worry stones, and more!
