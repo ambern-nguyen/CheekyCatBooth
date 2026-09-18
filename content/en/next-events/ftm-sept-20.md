@@ -1,6 +1,6 @@
 ---
 title: "Upcoming Event: 9/20 Flea the Market Teddy Bear Event"
-title-images: ["/Rilakumma.png",]
+title-images: ["/Rilakkuma.png",]
 ending-images: []
 author: "cheekycat"
 draft: false
