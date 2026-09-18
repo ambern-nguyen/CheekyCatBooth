@@ -1,7 +1,8 @@
 ---
 title: "The Soul Real Market (Tustin, CA)"
 date: "2026-09-12T21:05:11-03:00"
-title-images: ["/soulrealdog.png", "/soulrealdog2.png","/soulrealdog3.png"]
+title-images: ["/soulrealdog.png", "/soulrealdog3.png"]
+ending-images: ["/soulrealdog2.png",]
 author: "cheekycat"
 draft: false
 ---
